@@ -9,3 +9,4 @@ for (let flavor of flavorsArray)
     } else {
         flavorCounts[flavor] = 1;
     }
+    return flavorCounts;
